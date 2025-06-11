@@ -5,8 +5,6 @@ const maxWidth = 991;
 var minimo = '(min-width: ' + minWidth + 'px)'
 var maximo = '(max-width: ' + maxWidth + 'px)'
 
-console.log("Hola mUNDO")
-
 var cabecera = document.querySelector('#cabecera')
 var barFixed = document.querySelector('.bar-fixed')
 var descuento = document.querySelector('#descuento')
