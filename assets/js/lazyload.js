@@ -52,3 +52,5 @@ function lazyLoad(){
         g.observe(t)
     })
 }
+
+console.log("5 Funciona");

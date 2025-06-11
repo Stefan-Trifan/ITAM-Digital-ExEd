@@ -43,3 +43,5 @@ function createCard(obj, $template, $fragment) {
     let $clone = document.importNode($template, true);
     $fragment.appendChild($clone);
 }
+
+console.log("6 Funciona");

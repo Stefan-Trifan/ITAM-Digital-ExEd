@@ -156,3 +156,5 @@ function clickScrollElelemt(scrollElement) {
         behavior: 'smooth'
     });
 }
+
+console.log("7 Funciona");

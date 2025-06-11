@@ -43,3 +43,5 @@ if (navegador == typeNavegador.toLowerCase().trim()) {
     convers(document.querySelectorAll('.bg-lazyload'));
     convers(document.querySelectorAll('.bg-img-cabecera'));
 }
+
+console.log("4 Funciona");
