@@ -29,7 +29,7 @@ El proyecto fue desarrollado teniendo en cuenta buenas prácticas de accesibilid
 
 ## Mi rol en el proyecto
 
-Durante mi tiempo en **Global Alumni**, lideré la maquetación, desarrollo y mantenimiento técnico del proyecto, colaborando directamente con equipos de diseño y marketing para garantizar coherencia visual, funcionalidad avanzada y óptimo rendimiento.
+Lideré la maquetación, desarrollo y mantenimiento técnico del proyecto, colaborando directamente con equipos de diseño y marketing para garantizar coherencia visual, funcionalidad avanzada y óptimo rendimiento.
 
 ---
 
