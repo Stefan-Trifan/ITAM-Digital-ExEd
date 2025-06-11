@@ -32,7 +32,7 @@ switch (lang) {
         documentProduct = ''
         break;
     case 'es':
-        documentProduct = '../../assets/bbdd/bbdd-itam-esp.json'
+        documentProduct = 'assets/bbdd/bbdd-itam-esp.json'
         break;
     case 'fr':
         documentProduct = ''
