@@ -4,6 +4,10 @@ Este repositorio contiene el código fuente y documentación del **sitio web ofi
 
 Fui responsable del diseño, desarrollo, mantenimiento y optimización del proyecto, aplicando técnicas avanzadas para garantizar alto rendimiento, accesibilidad y una excelente experiencia de usuario.
 
+## VER DEMOSTRACIÓN
+
+🔗 [stefan-trifan.github.io/ITAM-Digital-ExEd/](https://stefan-trifan.github.io/ITAM-Digital-ExEd/)
+
 ## Tecnologías utilizadas
 
 - HTML5
