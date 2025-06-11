@@ -25,7 +25,7 @@ El sitio incluye múltiples técnicas avanzadas para mejorar la velocidad de car
 
 ## Enfoque en accesibilidad
 
-El proyecto fue desarrollado teniendo en cuenta buenas prácticas de accesibilidad web (WCAG), asegurando la inclusión y usabilidad para todos los usuarios.
+El proyecto fue desarrollado teniendo en cuenta buenas prácticas de accesibilidad web (ADA), asegurando la inclusión y usabilidad para todos los usuarios.
 
 ## Mi rol en el proyecto
 
