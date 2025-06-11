@@ -26,7 +26,7 @@
     <meta name="twitter:creator" content="">
     <meta property="og:image:secure_url" content="assets/img/general/itam-entrada-1200-660.jpg">
     <meta property="og:type" content="website">
-    <meta name="robots" content="noindex">
+    <meta name="robots" content="index, follow">
 
     <!-- <link cache-control="max-age=86400" as="style" type="text/css" rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="assets/css/fuentes.min.css">
     <link cache-control="max-age=86400" as="style" type="text/css" rel="stylesheet" onload="this.onload=null;this.rel='stylesheet'" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
@@ -80,7 +80,7 @@
             }
         });
     </script>
-    <script defer id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c250b5a8-4dc0-4644-9750-f0ab2ebad3a8" data-culture="ES" data-blockingmode="auto" type="text/javascript"></script>
+    <!-- <script defer id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c250b5a8-4dc0-4644-9750-f0ab2ebad3a8" data-culture="ES" data-blockingmode="auto" type="text/javascript"></script> -->
 </head>
 <body>
     <noscript>
@@ -93,8 +93,8 @@
                     <img srcset="assets/img/logos/ITAM.svg" alt="logo ITAM" class="logo-white" width="300px" height="66px">
                 </a>
                 <div class="icon-menu">
-                    <img class="open-menu" srcset="../../assets/img/iconos/bars-solid.svg" alt="menu-hamburguesa" width="20" height="20">
-                    <img class="d-none close-menu" srcset="../../assets/img/iconos/xmark-solid.svg" alt="close-menu-hamburguesa" width="20" height="20">
+                    <img class="open-menu" srcset="assets/img/iconos/bars-solid.svg" alt="menu-hamburguesa" width="20" height="20">
+                    <img class="d-none close-menu" srcset="assets/img/iconos/xmark-solid.svg" alt="close-menu-hamburguesa" width="20" height="20">
                 </div>
             </div>
             <div class="content-anclas">
@@ -231,7 +231,7 @@
                         <div id="content-programs"></div>
                         <!-- fin contenedor de las tarjetas de productos paginados -->
                         <!-- contenedor de números de paginación -->
-                        <div id="paginacion" data-imgbtnleft="/assets/img/iconos/angles-left-solid.svg" data-imgbtnright="/assets/img/iconos/angles-right-solid.svg"></div>
+                        <div id="paginacion" data-imgbtnleft="assets/img/iconos/angles-left-solid.svg" data-imgbtnright="assets/img/iconos/angles-right-solid.svg"></div>
                         <!-- fin contenedor de números de paginación -->
                     </div>
                     <!-- fin contenedor para las tarjetas de productos y paginación -->
@@ -272,7 +272,7 @@
         <section id="in-numbers" class="py-5 bg-grisclaro">
             <div class="container py-0">
                 <div class="row text-center">
-                    <h2 class="pt-2">El ITAM en cifras</span></h2>
+                    <h2 class="pt-2">El ITAM en cifras</h2>
                     <p>Conoce algunas de las certificaciones que respaldan nuestra excelencia en educación ejecutiva innovadora:</p>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 pt-2 mx-0 justify-content-center d-flex align-items-stretch">
                         <div class="text-center pb-5 pb-md-3 my-3 ">
@@ -315,9 +315,9 @@
                             <script charset="utf-8" type="text/javascript" src="assets/js/form-hubspot.min.js"></script> -->
                             <img class="img_formulario_home" src="assets/img/general/formulario-prueba.png" alt="">
                             <script>
-                                if (window.matchMedia("(min-width: 992px)").matches) {
-                                    window.addEventListener('load', formHs());
-                                }
+                                // if (window.matchMedia("(min-width: 992px)").matches) {
+                                //     window.addEventListener('load', formHs());
+                                // }
                             </script>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
         </div>
     </footer>
     <!-- No alterar el orden de los SCRIPTS-->
-    <script defer src="assets/js/jquery-360.js"></script>
+    <script defer src="assets/js/jquery-360.min.js"></script>
     <script defer src="assets/js/main.js"></script>
     <script defer src="assets/js/copyrigth.js"></script>
     <script defer src="assets/js/browser-detected.js"></script>
@@ -391,15 +391,5 @@
     <script defer src="assets/js/return-products-hub.js"></script>
     <script defer src="assets/js/product-filtering-application.js"></script>
     <script defer src="assets/js/searcher.js"></script>
-    <script>
-        console.log('Página cargada');
-        fetch('assets/bbdd/bbdd-itam-esp.json')
-        .then(response => {
-            console.log('Respuesta JSON:', response.status);
-            return response.json();
-        })
-        .then(data => console.log('Datos cargados:', data))
-        .catch(error => console.error('Error cargando JSON:', error));
-    </script>
 </body>
 </html>
