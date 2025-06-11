@@ -55,7 +55,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/eb62937d-b661-416a-8e7e-be760785a7cd.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/cxo/gco/home-cxo-ceo-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/global-ceo/",
-    "url_landing": "/es/certificados-cxo/global-ceo-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/certificados-cxo/global-ceo-esp.html",
     "url_pay": "",
     "cod_pay": 166
   },
@@ -115,7 +115,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/1dc263de-f009-4586-9050-13616bb0f7cc.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/gcs/home-gcs-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/cadena-suministros-logistica-empresarial/",
-    "url_landing": "/es/programas/cadena-suministros-logistica-empresarial-gcs-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/cadena-suministros-logistica-empresarial-gcs-esp.html",
     "url_pay": "",
     "cod_pay": 172
   },
@@ -145,7 +145,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/40946f16-a9bf-49d8-94df-939543e40b0a.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/ian/home-ian-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/inteligencia-artificial-aplicada-negocios/",
-    "url_landing": "/es/programas/inteligencia-artificial-aplicada-negocios-ian-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/inteligencia-artificial-aplicada-negocios-ian-esp.html",
     "url_pay": "",
     "cod_pay": 171
   },
@@ -175,7 +175,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/18853f24-5c0e-465c-81d8-9a34bb77e8b6.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/prm/home-prm-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/dynamic-pricing-strategy/",
-    "url_landing": "/es/programas/dynamic-pricing-strategy-esp",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/dynamic-pricing-strategy-esp",
     "url_pay": "",
     "cod_pay": 174
   },
@@ -205,7 +205,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/fc03709a-f5d7-441f-ba6b-137f38e2fe30.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/tri/home-tri-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/tributacion-internacional/",
-    "url_landing": "/es/programas/tributacion-internacional-tri-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/tributacion-internacional-tri-esp.html",
     "url_pay": "",
     "cod_pay": 173
   },
@@ -235,7 +235,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/dc053c4a-5229-487c-b867-e0b2a16a29e1.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/aec/home-aec-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/administracion-estrategica-de-costos/",
-    "url_landing": "/es/programas/administracion-estrategica-costos-aec-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/administracion-estrategica-costos-aec-esp.html",
     "url_pay": "",
     "cod_pay": 152
   },
@@ -265,7 +265,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/56db4a2b-6621-4872-a838-092dde477ff3.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/aci/home-aci-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/auditoria-y-control-interno/",
-    "url_landing": "/es/programas/auditoria-control-interno-ita-aci-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/auditoria-control-interno-ita-aci-esp.html",
     "url_pay": "",
     "cod_pay": 155
   },
@@ -295,7 +295,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/63e9043f-023d-4d88-9e99-6119b0015700.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/cdh/home-cdh-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/competencias-directivas-en-health-management/",
-    "url_landing": "/es/programas/competencias-directivas-health-management-cdh-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/competencias-directivas-health-management-cdh-esp.html",
     "url_pay": "",
     "cod_pay": 153
   },
@@ -325,7 +325,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/4a2883df-c0ac-4a86-bc2c-bb8deb106dc6.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/cap/home-cap-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/comunicacion-asertiva-persuasiva/",
-    "url_landing": "/es/programas/comunicacion-asertiva-persuasiva-cap-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/comunicacion-asertiva-persuasiva-cap-esp.html",
     "url_pay": "",
     "cod_pay": 169
   },
@@ -355,7 +355,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/6a8f1d49-f3fb-457e-bc43-4c0b8a39bd53.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/gef/home-gef-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/gestion-financiera-empresarial/",
-    "url_landing": "/es/programas/gestion-financiera-empresarial-gef-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/gestion-financiera-empresarial-gef-esp.html",
     "url_pay": "",
     "cod_pay": 151
   },
@@ -385,7 +385,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/417304af-5797-49e9-9fff-855828cdf005.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/tdo/home-tdo-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/gestion-y-liderazgo-empresarial-en-la-era-digital/",
-    "url_landing": "/es/programas/gestion-liderazgo-empresarial-era-digital-tdo-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/gestion-liderazgo-empresarial-era-digital-tdo-esp.html",
     "url_pay": "",
     "cod_pay": 154
   },
@@ -415,7 +415,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/13a95d6d-a448-4694-bb0e-b65c6cf84ba0.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/iet/home-iet-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/ingenieria-en-los-equipos-de-trabajo/",
-    "url_landing": "/es/programas/ingenieria-equipos-trabajo-iet-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/ingenieria-equipos-trabajo-iet-esp.html",
     "url_pay": "",
     "cod_pay": 149
   },
@@ -445,7 +445,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/c096c0a0-e8e2-41ca-8529-ad5c67dd090f.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/man/home-man-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/marketing-analytics/",
-    "url_landing": "/es/programas/marketing-analytics-man-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/marketing-analytics-man-esp.html",
     "url_pay": "",
     "cod_pay": 163
   },
@@ -475,7 +475,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/066c33a7-123f-486a-96b3-719a6f00a6b4.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/md3/home-md3-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/marketing-digital-360/",
-    "url_landing": "/es/programas/marketing-digital-360-md3-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/marketing-digital-360-md3-esp.html",
     "url_pay": "",
     "cod_pay": 148
   },
@@ -505,7 +505,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/5b26614f-ce53-4f36-8f4f-23400e0b9b26.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/pdt/home-pdt-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/pensamiento-disruptivo-en-la-toma-estrategica-de-decisiones/",
-    "url_landing": "/es/programas/pensamiento-disruptivo-toma-estrategica-decisiones-pdt-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/pensamiento-disruptivo-toma-estrategica-decisiones-pdt-esp.html",
     "url_pay": "",
     "cod_pay": 150
   },
@@ -535,7 +535,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/e1f39c22-0abd-433d-bcc2-300972196bdd.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/eys/home-eys-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/sustentabilidad-en-negocios-herramientas-y-estrategias/",
-    "url_landing": "/es/programas/sustentabilidad-negocios-herramientas-estrategias-eys-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/sustentabilidad-negocios-herramientas-estrategias-eys-esp.html",
     "url_pay": "",
     "cod_pay": 156
   },
@@ -565,7 +565,7 @@
     "brochure": "https://image.info.globalalumni.org/lib/fe28117371640475721276/m/1/38c36bd2-89e4-402f-8240-a8a5a687024c.pdf",
     "img_home": "https://itamdigitalexed.org/assets/img/op/vdd/home-vdd-768x339.webp",
     "url_web": "https://digitalexed.itam.mx/visualizacion-de-datos-para-la-toma-de-decisiones/",
-    "url_landing": "/es/programas/visualizacion-datos-toma-decisiones-vdd-esp.html",
+    "url_landing": "/ITAM-Digital-ExEd/es/programas/visualizacion-datos-toma-decisiones-vdd-esp.html",
     "url_pay": "",
     "cod_pay": 164
   }
