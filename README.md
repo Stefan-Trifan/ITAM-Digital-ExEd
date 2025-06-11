@@ -16,10 +16,10 @@ Fui responsable del diseño, desarrollo, mantenimiento y optimización del proye
 
 El sitio incluye múltiples técnicas avanzadas para mejorar la velocidad de carga, rendimiento general y accesibilidad:
 
-- **Lazy Loading** para carga eficiente de imágenes.
-- **Purge CSS** para eliminar estilos CSS no utilizados, optimizando el tamaño final de archivos.
-- **Precarga de fuentes web** para mejorar la velocidad percibida.
-- **Carga diferida de scripts** (atributo `defer`) para optimizar tiempos de carga.
+- Lazy Loading para carga eficiente de imágenes.
+- Purge CSS para eliminar estilos CSS no utilizados, optimizando el tamaño final de archivos.
+- Precarga de fuentes web para mejorar la velocidad percibida.
+- Carga diferida de scripts (atributo `defer`) para optimizar tiempos de carga.
 - Control de caché avanzado mediante etiquetas `cache-control="max-age=31536000"`.
 - Carga asíncrona de formularios de HubSpot tras la visualización inicial del contenido.
 
