@@ -270,3 +270,9 @@ button, input, optgroup, select, textarea, label {
         display: none;
     }
 }
+
+/* Imagen Formulario Sample */
+
+.img_formulario_home{
+    width: 100%;
+}
