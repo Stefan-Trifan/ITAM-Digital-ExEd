@@ -1,0 +1,3 @@
+# Redirecciones Brand
+
+RewriteRule ^(/)?$ https://itamdigitalexed.org/es/ [R=301,L]

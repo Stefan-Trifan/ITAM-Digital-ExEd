@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta id="redirect" http-equiv="refresh" content="">
+    <script>
+        /*************************************************************
+        * @const utmAux, contiene la url de inicio de la navegación
+        ************************************************************/
+        const utmAux = window.location.href
+        const urlReditect = 'https://programas.itamdigitalexed.org/global-ceo-esp'
+
+        /** seguimiento de UTMs */
+        if (utmAux.includes('?utm')) {
+            var utmAdded = utmAux.split('?utm_')[1]
+            document.querySelector('#redirect').content = "0;URL=" + urlReditect + '?utm_' + utmAdded
+        } else {
+            document.querySelector('#redirect').content = "0;URL=" + urlReditect
+        }
+    </script>
+</head>
+</html>

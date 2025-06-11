@@ -1,0 +1,21 @@
+/* TYPCALL */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.btn-third {
+    max-width: 200px;
+}
+@media screen and (min-width: 992px) {
+    .agendar-llamada img {
+        height: auto;
+        width: auto;
+    }
+}

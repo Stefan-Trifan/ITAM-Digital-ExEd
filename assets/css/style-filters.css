@@ -1,0 +1,679 @@
+:root {
+    --primary: #006853;
+    --secondary: #AA6C10;
+    --accent: #006853;
+    ;
+    --tertiary: #7C2529;
+    --quaternary: #006853;
+    --black: #000000;
+    --white: #f8f8f8;
+    --grisclaro: #f2f2f2;
+    --grisoscuro: #d9d9d9;
+    --gris: #808080;
+    --sombra-clara: 0 10px 25px -10px rgba(0, 0, 0, 0.15);
+    --sombra-oscura: 0 30px 40px -20px rgba(0, 0, 0, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+section {
+    padding: 3vw;
+}
+
+.contenedor {
+    padding: 1.5rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-grisclaro {
+    background-color: var(--grisclaro);
+}
+
+.icon-black {
+    filter: brightness(0);
+}
+
+/* estilos de la banda del tipo de producto */
+.exm .type-course {
+    background-color: var(--primary);
+}
+
+.cxo .type-course {
+    background-color: var(--secondary);
+}
+
+.pe .type-course {
+    background-color: var(--accent);
+}
+
+.pcp .type-course {
+    background-color: var(--primary);
+    color: white;
+}
+
+.op .type-course {
+    background-color: var(--primary);
+}
+
+/* color de los btones de las card segun tipo de producto */
+.exm .btn-accent {
+    color: #fff;
+    background-color: var(--secondary);
+}
+
+.cxo .btn-accent {
+    color: var(--white);
+    background-color: var(--tertiary);
+}
+
+.pe .btn-accent {
+    color: #fff;
+    background-color: var(--accent);
+}
+
+.pcp .btn-accent {
+    color: #fff;
+    background-color: var(--primary);
+}
+
+.op .btn-accent {
+    color: var(--white);
+    background-color: var(--tertiary);
+}
+
+.exm .btn-accent:hover {
+    color: #fff;
+    background-color: var(--primary);
+}
+
+.cxo .btn-accent:hover {
+    color: #fff;
+    background-color: var(--primary);
+}
+
+.pe .btn-accent:hover {
+    color: #fff;
+    background-color: var(--primary);
+}
+
+.pcp .btn-accent:hover {
+    color: #fff;
+    background-color: var(--black);
+}
+
+.op .btn-accent:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.display-none {
+    display: none;
+}
+
+/*=======================================*/
+/*      ESTILOS BUSCADOR
+/*=======================================*/
+.buscador {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.buscador img {
+    width: 20px;
+}
+
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+input {
+    max-width: 400px;
+    width: 100%;
+}
+
+/*******************************************/
+/*      ESTILOS ALL COURSES
+/*******************************************/
+
+#our-programs {
+    padding: 2rem 0;
+    overflow: visible;
+}
+
+#all-courses {
+    display: flex;
+    justify-content: center;
+}
+
+#all-courses .container {
+    max-width: 1350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*contenedor de tags (indicadores)*/
+#all-courses .container .indicador {
+    margin-bottom: 15px;
+    border-right: none;
+
+}
+
+#all-courses .container .indicador #cont-fixed {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 0 3%;
+    overflow: hidden;
+}
+
+/*contenedor de programas*/
+#all-courses .container #column-programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    position: relative;
+    padding: 2rem 2%;
+}
+
+#all-courses .container #content-programs {
+    width: 100%;
+    opacity: 1;
+}
+
+/*contenedor tarjeta de programas*/
+#all-courses .container #content-programs .content {
+    float: left;
+    opacity: 1;
+    animation: visible 300ms ease-in;
+}
+
+/*estado activo de los tags*/
+#all-courses .container .indicador div.activo {
+    border-color: var(--primary);
+    color: var(--black);
+    background-color: var(--primary);
+}
+
+#all-courses .container .indicador div.activo .text-tag {
+    color: var(--white);
+    position: relative;
+}
+
+#all-courses .container .indicador .cont-text-tag {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    padding: 0.8rem 0.6rem;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid var(--gris);
+    border-radius: 3px;
+    min-height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 48%;
+}
+
+#all-courses .container .indicador .cont-text-tag svg,
+#all-courses .container .indicador .cont-text-tag img {
+    fill: var(--black);
+    width: 30px;
+    min-width: 30px;
+    display: none;
+}
+
+/*==================================================*/
+/*          ESTILOS TARJETAS
+/*==================================================*/
+#all-courses .container #content-programs .content {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#all-courses .container #content-programs .content #item {
+    box-shadow: var(--sombra-clara);
+    transition: all 200ms;
+    position: relative;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: var(--sombra-oscura);
+}
+
+#all-courses .container #content-programs .content #item:hover {
+    box-shadow: var(--sombra-oscura);
+    translate: 0 -4px;
+    transition: all 200ms;
+}
+
+#all-courses .container #content-programs .content #item.bg-white {
+    border: 1px solid var(--grisoscuro);
+}
+
+#all-courses .container #content-programs .content #item img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* NUEVO */
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    display: block;
+    border: 5px solid var(--gris);
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 210px;
+    padding: 15px 0;
+    background-color: var(--tertiary);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    font: 500 12px/1 'dinproregular', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    line-height: 0;
+}
+
+.ribbon-top-right {
+    top: -10px;
+    right: -10px;
+    
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    background-color: var(--tertiary);
+    z-index: 1;
+}
+
+.ribbon-top-right::before {
+    top: 0;
+    left: 29px;
+}
+
+.ribbon-top-right::after {
+    bottom: 29px;
+    right: 0;
+}
+
+.ribbon-top-right span {
+    left: -5px;
+    top: 35px;
+    transform: rotate(45deg);
+}
+
+/* FIN NUEVO */
+
+#all-courses .container #content-programs .content #item .cont-text-op {
+    min-height: 75px;
+    padding: 2% 5%;
+}
+
+#all-courses .container #content-programs .content #item .cont-parraf {
+    padding: 0 5% 10px;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    color: var(--grismit) !important;
+}
+
+#all-courses .container #content-programs .content #item .cont-text-op h2,
+#all-courses .container #content-programs .content #item .cont-text-op h3 {
+    margin-bottom: 2px !important;
+}
+
+#all-courses .container #content-programs .content #item .cont-text-op h2 {
+    color: var(--negromit);
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+#all-courses .container #content-programs .content #item .cont-text-op h3 {
+    font-weight: normal;
+}
+
+#all-courses .container #content-programs .content #item .cont-parraf .texto-curos,
+#all-courses .container #content-programs .content #item .cont-text-op h3 {
+    font-size: 14px !important;
+    line-height: 19px !important;
+    color: var(--gris) !important;
+}
+
+#all-courses .container #content-programs .content #item .content-bottom-item {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#all-courses .container #content-programs .content #item .btn-item-pgr {
+    margin: 0 5% 20px;
+    padding: 8px 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-weight: 500;
+    transition: all 300ms ease-in;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#all-courses .container #content-programs .content #item .type-course {
+    font-size: 14px;
+    padding: 7px 5%;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--white);
+}
+
+
+#all-courses .container #content-programs .content #item .content-btn-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#all-courses .container #content-programs .content #item a.icon-cart {
+    padding-right: 5%;
+}
+
+#all-courses .container #content-programs .content #item a.icon-cart svg,
+#all-courses .container #content-programs .content #item a.icon-cart i {
+    fill: var(--gris);
+    width: 24px;
+    margin-top: 5px;
+    transition: .3s ease-in;
+}
+
+#all-courses .container #content-programs .content #item a.icon-cart:hover svg,
+#all-courses .container #content-programs .content #item a.icon-cart:hover i {
+    fill: var(--black);
+    transition: .3s ease-in;
+}
+
+/***************FIN DE ESTILOS ALL COURSES*********************/
+
+
+/*============================================*/
+/*         BOTONES DE PAGINACION
+/*============================================*/
+#paginacion {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#paginacion button img {
+    width: 0.8rem;
+    min-width: 0.8rem;
+}
+
+#paginacion button.number-pag,
+#paginacion button.displace {
+    border: 1px solid var(--grisoscuro);
+    background-color: var(--grisoscuro);
+    color: var(--black);
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+#paginacion button.displace:disabled {
+    background-color: transparent;
+}
+
+#paginacion button.displace:disabled img {
+    filter: opacity(25%)
+}
+
+#paginacion button.number-pag:disabled {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
+
+[type="button"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+/* fin de botones de paginación */
+
+/*============================================*/
+/*          MEDIAS QUERY
+/*============================================*/
+
+@media screen and (min-width: 576px) {
+
+    #all-courses .container .indicador #cont-fixed {
+        justify-content: initial;
+        box-shadow: none;
+    }
+
+    #all-courses .container .indicador .cont-text-tag {
+        width: 50%;
+        border: none;
+        border-radius: 0;
+        min-height: auto;
+        margin-bottom: auto;
+        text-align: left;
+        justify-content: initial;
+    }
+
+    #all-courses .container .indicador .cont-text-tag.activo {
+        background-color: var(--primary)
+    }
+
+    #all-courses .container .indicador .cont-text-tag .text-tag::after {
+        content: '';
+        display: block;
+        width: 0%;
+        height: 3px;
+        background-color: var(--primary);
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: all .3s;
+    }
+
+    #all-courses .container .indicador .cont-text-tag svg,
+    #all-courses .container .indicador .cont-text-tag img {
+        display: block;
+    }
+
+    #all-courses .container .indicador .cont-text-tag.activo img {
+        filter: brightness(0) invert(1);
+    }
+
+
+    #all-courses .container .indicador .cont-text-tag.activo .text-tag::after {
+        width: 100%;
+        transition: all .3s;
+    }
+
+    #all-courses .container #column-programs {
+        padding: 2rem 1rem;
+    }
+
+    #all-courses .container #content-programs {
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 1rem; */
+    }
+
+    #all-courses .container #content-programs .content {
+        width: 50%;
+        padding: 5px 10px;
+        /* max-height: 360px; */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #all-courses .container #content-programs .content {
+        width: 33.33333%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /* .fixed-tags {
+position: fixed !important;
+top: 130px !important;
+width: 22.4vw;
+} */
+    #all-courses .container #content-programs .content #item {
+        max-height: 375px;
+    }
+
+
+    /*contenedor de seccion*/
+    #all-courses .container {
+        flex-direction: row;
+    }
+
+    /*seccion tags*/
+    #all-courses .container .indicador {
+        flex: 23%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 2.5rem 0;
+        position: relative;
+        background-color: var(--white);
+    }
+
+    #all-courses .container .indicador div.activo {
+        border: none;
+    }
+
+    #all-courses .container .indicador .cont-text-tag {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    /*seccion tarjetas*/
+    #all-courses .container #column-programs {
+        flex: 77%;
+        padding-bottom: 0;
+    }
+
+    #all-courses .container #content-programs {
+        height: 100%;
+    }
+
+    #all-courses .container #content-programs::after {
+        content: "";
+        position: absolute;
+        top: 40px;
+        left: -9px;
+        bottom: 0;
+        width: 3px;
+        background-color: var(--primary);
+        height: 95%;
+    }
+
+    /*boton de otros programas*/
+    #btn-more-pgr {
+        display: none;
+    }
+
+    #all-courses .container .indicador #cont-fixed {
+        position: sticky !important;
+        top: 2.5rem !important;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1350px) {
+    /* #all-courses .container #content-programs .content {
+width: 33.33333%;
+} */
+
+    /* .fixed-tags {
+width: 303px;
+} */
+}
+
+/*============================================*/
+/*          ANIMACIÓN VISBLE TAGS
+/*============================================*/
+@keyframes visible {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+

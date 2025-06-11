@@ -1,0 +1,663 @@
+
+:root {
+    --black: black;
+    --blancomit: #f8f8f8;
+    --gris: grey;
+    --grismit: #808080;
+    --grisclamit: #f2f2f2;
+    --naranjaglobal: #F9B104;
+    --bg-old: #dcb929;
+    --negromit: #252525;
+    --rojomit: #a90533;
+    --rojooscmit: #68001e;
+    --rosamit: #e4afbe;
+    --verdemit: #a8cd3c;
+    --verdeclamit: #d6e040;
+    --white: white;
+    --rojomitgradient: linear-gradient(20deg, rgba(129, 0, 36, 1) 0%, rgba(169, 5, 51, 1) 35%, rgba(208, 0, 58, 1) 100%);
+    --sombra: 0 30px 40px -20px rgba(0, 0, 0, 0.3);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+header{
+    /* position: fixed;
+    z-index: 999;
+    width: 100vw;
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.3); */
+    background-color: #fff;
+    
+}
+header nav.navbar {
+    min-height: auto;
+    box-shadow: none;
+}
+.padding-dp{
+    padding-left: calc(100vw * 0.06);
+    padding-right: calc(100vw * 0.06);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.padding-dp img{
+    width: 150px;
+}
+.caja-arrow-down .arrow {
+    display: none !important;
+}
+.logo-mit, .logo-mit-pcp-cxo {
+    margin: 10px 0;
+}
+a.bg-red:focus {
+    color: var(--white) !important;
+}
+a.bg-naranjaglobal:focus,
+a.bg-green:focus {
+    color: var(--negromit) !important;
+}
+
+.bg-naranjaglobal {
+    background-color: var(--bg-old);
+}
+.bg-gradient-green {
+    background-image: linear-gradient(120deg,#a8cd3c 29%,#d6e040 29%);
+}
+@media screen and (min-width: 768px){
+    .bg-gradient-green {
+        background-image: linear-gradient(120deg,#a8cd3c 20%,#d6e040 20%);
+    }
+    .padding-dp img{
+        width: 170px;
+    }
+}
+@media screen and (min-width: 992px){
+    .bg-gradient-green {
+        background-image: linear-gradient(120deg,#a8cd3c 13%,#d6e040 13%);
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px){ /*Jeff*/
+    .bg-gradient-green {
+        background-image: linear-gradient(120deg,#a8cd3c 14.7%,#d6e040 14.7%);
+    }
+}
+.img-home {
+    background-image: linear-gradient(75deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0)100%), url(../images/brand/banner-mit-professional-education-brand-1200x660.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 120px; */
+}
+
+.container-title-home {
+    padding-top: calc(100vw * 0.06);
+    padding-left: calc(100vw * 0.06);
+    padding-right: calc(100vw * 0.06);
+    padding-bottom: 120px !important;
+}
+
+#headerOurPrograms {
+    background-color: var(--grisclamit);
+    padding: 50px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 7px 13px -3px; 
+}
+.caja-arrow-down {
+    display: block !important;
+}
+h1 {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 0px; /*Jeff*/
+}
+#headerOurPrograms h2 {
+    color: var(--rojomit)
+}
+
+/* #content-programs .cont-text-op > h2 {
+    color: var(--negromit);
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+} */
+
+#our-programs {
+    padding: 60px 0 0;
+}
+
+#section-claim .content-claim {
+    padding: 40px 5%;
+    overflow: hidden;
+}
+
+#section-claim .content-claim p {
+    margin-bottom: 0 !important;
+}
+
+.divider-small-border {
+    background-color: var(--verdeclamit);
+    transform: translateX(-373px);
+    margin-top: 1px;
+    width: 600px;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.img-digital-plus {
+    cursor: pointer;
+}
+
+.button-line-green {
+    padding: 10px 12px;
+    border-radius: 6px !important;
+    border: 2px solid var(--verdeclamit);
+    background-color: var(--verdeclamit);
+    transition: all 300ms;
+    margin-bottom: 5px; /*Jeff*/  
+}
+.caja-button-explore { /*Jeff*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px;
+}
+.caja-button-explore p { /*Jeff*/
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+a.button-line-green {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    color: var(--black);
+}
+.button-line-green.button-desktop { /*Jeff*/
+    display: none;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#section-counter {
+    position: relative;
+    z-index: 0;
+}
+
+#section-form-home {
+    background-color: var(--grisclamit);
+}
+
+#section-form-home .contenedor-formulario {
+    padding: 80px 8%;
+}
+
+#section-form-home .contact-form {
+    width: 100% !important;
+    padding: 30px !important;
+    display: block;
+    box-shadow: var(--sombra);
+    border-radius: 10px;
+}
+
+#section-form-home .contact-form form fieldset {
+    max-width: 100% !important;
+}
+
+#section-form-home .bg-img-form {
+    background-image: url('../images/brand/form-mit-professional-education-brand-1200x660.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#section-colaboration {
+    padding: 40px 6%;
+}
+
+#section-colaboration p {
+    margin-bottom: 0;
+}
+
+/*==================================*/
+/*  FRASES CAMBIANTES HEADER
+/*==================================*/
+.content-slide-text {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px !important;
+}
+
+.visible-slide-text {
+    float: left;
+    font-weight: 600;
+    overflow: hidden;
+    height: 50px;
+}
+
+.visible-slide-text ul {
+    margin-top: 0;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: left;
+    list-style: none;
+    animation: 8s linear 0s normal none infinite change;
+    -webkit-animation: 8s linear 0s normal none infinite change;
+    -moz-animation: 8s linear 0s normal none infinite change;
+    -o-animation: 8s linear 0s normal none infinite change;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+}
+
+
+
+
+/*============================================*/
+/*          MEDIAS QUERY
+/*============================================*/
+
+@media screen and (max-width: 1200px) {
+    #logo-ga .logo-ga {
+        padding-bottom: 80px;
+    }
+    .scroll-top-arrow, .scroll-top-arrow:focus, #social-share {
+        bottom: 15px;
+    }
+    .desktop-brand {
+        display: none;
+    }
+    .scroll-top-arrow, .scroll-top-arrow:focus, #social-share {
+                bottom: 55px;
+    }
+    #section-botonera-mobile{
+        display: flex !important;
+    }
+}
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+    .tarjeta-brand {
+        padding: 5px;        
+    }
+    .tarjetas-cxo-pcp {
+        width: 35%;
+    }    
+}
+@media screen and (max-width: 1024px) {    
+    #section-bloques.brand h3.cxo-pcp {
+        font-size: 30px;
+        padding: 0 10px 15px;
+    }
+    #section-bloques.brand .pricing-header, .format-brand {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #section-bloques.brand .content-brand h3 {
+        font-size: 26px;
+    }
+    #section-bloques.brand.cxo-pcp .content-brand h3 {
+        min-height: 80px;
+    }
+    #section-bloques.brand .content-brand h4 {
+        font-size: 22px;
+    }
+    #section-bloques.brand .caja-titulo-brand {
+        min-height: 120px;
+    }
+    #section-bloques.brand .content-brand > .content-interno-brand, 
+    #section-bloques.brand.cxo-pcp .content-brand > .content-interno-brand {
+        min-height: 300px;
+    }
+    #section-faculty.brand .caja-interna-faculty.brand p {
+        min-height: 275px;
+    }
+    #programa-online.brand .button-brand {
+        text-align: left;
+        padding: 20px 2%;     
+    }
+    #programa-online.brand .button-green.brand {
+        display: inline-block;        
+    }
+    #section-faculty.brand .caja-interna-faculty.brand p {
+        min-height: 320px;
+    } 
+    #section-faculty p {
+        font-size: 14px;
+    } 
+    #section-bloques.brand .caja-titulo-brand.lg {
+        min-height: 105px;
+    }
+    #section-bloques.brand .content-brand.lg > .content-interno-brand {
+        min-height: 410px;
+    }      
+}
+@media screen and (max-width: 850px) {
+    #section-faculty.brand .caja-interna-faculty.brand p {
+        min-height: 180px;
+    }
+    #programa-online.brand .button-brand {
+        text-align: center;
+        padding: 20px 2%;           
+    }
+    #programa-online.brand .button-green.brand {
+        width: 50%;         
+    }
+    #section-faculty.brand .caja-interna-faculty.brand p {
+        min-height: 225px;
+    }
+    #section-bloques.brand .caja-titulo-brand.lg {
+        min-height: 145px;
+    }
+    #section-bloques.brand .content-brand.lg > .content-interno-brand {
+        min-height: 525px;
+    }
+    #section-bloques.brand .caja-titulo-brand.md {
+        min-height: 105px;
+    }
+    #section-bloques.brand .caja-titulo-brand.sm {
+        min-height: 75px;
+    }
+    #section-bloques.brand .content-brand.md > .content-interno-brand {
+        min-height: 355px;
+    }      
+}
+@media screen and (max-width: 768px) {
+    #section-bloques.brand .caja-titulo-brand.lg {
+        min-height: 145px;
+    }
+    #section-bloques.brand .content-brand.lg > .content-interno-brand {
+        min-height: 565px;
+    }
+    #section-bloques.brand .content-brand.md > .content-interno-brand {
+        min-height: 405px;
+    } 
+}
+@media screen and (max-width: 576px) {
+    .caja-button-explore.fra a { /*Jeff*/
+        font-size: 13px;
+    }
+    #programa-online.brand .button-line-green {
+        padding: 12px 8px;
+        font-size: 13.3px;
+    }
+    .caja-texto-banner, .caja-externa-texto-banner {
+        padding-right: 0px;
+    }
+    #programa-online.brand .button-brand {
+        text-align: center;
+        padding: 15px;          
+    }
+    #programa-online.brand .button-green.brand {
+        width: 478px; 
+        font-size: 15px;
+        position: absolute;
+        bottom: 15px;
+    }
+    #programa-online.brand #dscto-box h4 {
+        font-size: 18px;
+    }
+    #programa-online.brand .banner-top {
+        padding: 120px 3% 105px 3%;
+    }
+    #section-bloques.brand .content-brand.md > .content-interno-brand,
+    #section-bloques.brand .caja-titulo-brand.md,
+    #section-bloques.brand .caja-titulo-brand.sm, 
+    #section-faculty.brand .caja-interna-faculty.brand,     
+    #section-faculty.brand .caja-interna-faculty.brand p,
+    #section-bloques.brand.cxo-pcp .caja-titulo-brand,
+    #section-bloques.brand .caja-titulo-brand.lg,
+    #section-bloques.brand .caja-titulo-brand,
+    #section-bloques.brand.cxo-pcp .content-brand h3,
+    #section-bloques.brand.cxo-pcp .content-brand h4, 
+    #section-bloques.brand .content-brand > .content-interno-brand,
+    #section-bloques.brand.cxo-pcp .content-brand,  
+    #section-bloques.brand.cxo-pcp .content-brand > .content-interno-brand,
+    #section-bloques.brand .content-brand.lg > .content-interno-brand {
+        min-height: 1px;
+    } 
+    
+    #section-bloques.brand.cxo-pcp .content-brand h3,
+    #section-bloques.brand .content-brand h4,
+    #section-bloques.brand .content-brand > p.content-interno-brand,
+    #section-bloques.brand .content-brand > .content-interno-brand p,
+    #section-faculty.brand .caja-interna-faculty.brand p {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 425px) {    
+    #programa-online.brand .button-green.brand {
+        width: 388px; 
+    }
+    html {
+        scroll-padding-top: 100px;
+    }
+}
+@media screen and (max-width: 375px) {    
+    #programa-online.brand .button-green.brand {
+        width: 340px; 
+    }
+    #programa-online.brand .brand-list li {
+        font-size: 16px;
+        margin-top: 5px;
+        text-indent: -12px;
+    }
+    .padding-dp {
+        padding-left: calc(100vw * 0.03);
+    }
+}
+@media screen and (max-width: 320px) {
+    .bg-gradient-green {
+        background-image: linear-gradient(120deg,#a8cd3c 31.5%,#d6e040 31.5%); /*Jeff*/
+    }
+    #programa-online.brand .button-green.brand {
+        width: 288px; 
+    }
+    #programa-online.brand ul.brand-list {
+        margin-left: 8px;
+    }
+    #programa-online.brand .brand-list li {
+        margin-top: 8px;
+        text-indent: -18px;
+        line-height: 1.3;
+    }
+    #section-nav .dpp.brand {
+        padding-left: 25px;
+    }
+    
+}
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 20px; /*Jeff*/
+    }
+
+    .content-icons-rs .icon-rs {
+        margin: 10px 10px 0 0;
+    }
+
+    .content-icons-rs .icon-rs .box-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .content-icons-rs .icon-rs .box-icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    #all-courses .container .indicador #cont-fixed {
+        justify-content: initial;
+    }
+
+    #all-courses .container .indicador .cont-text-tag {
+        width: 50%;
+        color: #000;
+        border: none;
+        border-bottom: 3px solid transparent;
+        border-bottom-color: transparent;
+        border-radius: 0;
+        min-height: auto;
+        margin-bottom: auto;
+        text-align: left;
+        justify-content: initial;
+    }    
+
+    #all-courses .container .indicador .cont-text-tag svg {
+        display: block;
+    }
+    .caja-button-explore { /*Jeff*/
+        display: none;
+    }
+    .button-line-green.button-desktop { /*Jeff*/
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 768px) {
+
+
+    #all-courses .container #content-programs {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    #all-courses .container #content-programs .content {
+        width: 50%;
+        padding: 5px 10px;
+    }
+
+    #mit-description>div:nth-child(2) {
+        position: absolute;
+        top: -60px;
+        padding: 0 8% !important;
+    }
+
+    #mit-description .box-mit-description {
+        border-radius: 6px !important;
+    }
+
+    .button-line-green {
+        background-color: transparent;
+    }
+
+    .button-line-green:hover {
+        color: var(--black);
+        background-color: var(--verdeclamit);
+    }
+
+    a.button-line-green {
+        color: var(--white);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img-home {
+        background-image: linear-gradient(40deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.1) 50%), url(../images/brand/banner-mit-professional-education-brand-1200x660.webp);
+        background-position: center 65%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .divider-small-border {
+        margin-bottom: 1px;
+    }
+
+    .fixed-tags {
+        position: fixed !important;
+        top: 130px !important;
+        width: 22.4vw;
+    }
+
+    /*contenedor de seccion*/
+    #all-courses .container {
+        flex-direction: row;
+    }
+
+    /*seccion tags*/
+    #all-courses .container .indicador {
+        border-right: 1px solid rgb(169, 5, 51, 0.2);
+        flex: 23%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1.5rem 0;
+    }
+
+    #all-courses .container .indicador div.activo {
+        border-right-color: #A90533 !important;
+        border-bottom-color: none;
+    }
+
+    #all-courses .container .indicador .cont-text-tag {
+        width: 100%;
+        border-right: 3px solid transparent;
+        border-bottom: none;
+    }
+
+    /*seccion tarjetas*/
+    #all-courses .container #content-programs {
+        flex: 77%;
+    }
+
+    /*boton de otros programas*/
+    #btn-more-pgr {
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    #section-claim {
+        position: relative;
+        z-index: 5;
+        transform: translateY(40px);
+    }  
+
+    #section-claim .content-claim {
+        padding: 2% 2%;
+        border-radius: 8px;
+    }
+
+    #section-counter {
+        padding-top: 80px;
+    }
+    .responsive-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    #all-courses .container #content-programs .content {
+        width: 33.33333%;
+    }
+
+    .fixed-tags {
+        width: 303px;
+    }
+
+    #section-link-contact .box-link-contact .wpb_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*============================================*/
+/*          ANIMACIÓN VISBLE TAGS
+/*============================================*/
+@keyframes visible {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

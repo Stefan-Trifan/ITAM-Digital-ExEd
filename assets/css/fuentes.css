@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* Dinpro normal normal*/
+@font-face {
+    font-family: 'dinprobold';
+    src: url('../fonts/Dinpro/dinpro-bold-webfont.eot');
+    src: url('../fonts/Dinpro/dinpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Dinpro/dinpro-bold-webfont.woff2') format('woff2'),
+        url('../fonts/Dinpro/dinpro-bold-webfont.woff') format('woff'),
+        url('../fonts/Dinpro/dinpro-bold-webfont.svg#dinprobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.dinprobold{
+    font-family: 'dinprobold';
+}
+
+/* Dinpro normal normal*/
+@font-face {
+    font-family: 'dinproregular';
+    src: url('../fonts/Dinpro/dinpro-regular-webfont.eot');
+    src: url('../fonts/Dinpro/dinpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Dinpro/dinpro-regular-webfont.woff2') format('woff2'),
+        url('../fonts/Dinpro/dinpro-regular-webfont.woff') format('woff'),
+        url('../fonts/Dinpro/dinpro-regular-webfont.svg#dinproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.dinproregular{
+    font-family: 'dinproregular';
+}
+
+/* Calibri 300 normal*/
+@font-face {
+    font-family: 'calibri-1';
+    src: url('../fonts/Calibri/../fonts/Calibri/Calibri-Light.eot');
+    src: url('../fonts/Calibri/Calibri-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri-Light.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri-Light.woff') format('woff'),
+        url('../fonts/Calibri/Calibri-Light.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri-Light.svg#Calibri-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.calibri-1{
+    font-family: 'calibri-1';
+}
+
+/* Dinpro normal normal
+@font-face {
+    font-family: 'dinprolight';
+    src: url('../fonts/Dinpro/dinpro-light-webfont.eot');
+    src: url('../fonts/Dinpro/dinpro-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Dinpro/dinpro-light-webfont.woff2') format('woff2'),
+        url('../fonts/Dinpro/dinpro-light-webfont.woff') format('woff'),
+        url('../fonts/Dinpro/dinpro-light-webfont.svg#dinprolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+Calibri bold italic
+@font-face {
+    font-family: 'calibri-2';
+    src: url('../fonts/Calibri/Calibri-BoldItalic.eot');
+    src: url('../fonts/Calibri/Calibri-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri-BoldItalic.woff') format('woff'),
+        url('../fonts/Calibri/Calibri-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri-BoldItalic.svg#Calibri-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} 
+
+Calibri normal normal
+@font-face {
+    font-family: 'calibri-3';
+    src: url('../fonts/Calibri/Calibri.eot');
+    src: url('../fonts/Calibri/Calibri.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri.woff') format('woff'),
+        url('../fonts/Calibri/Calibri.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+
+Calibri 300 italic
+@font-face {
+    font-family: 'calibri-4';
+    src: url('../fonts/Calibri/Calibri-LightItalic.eot');
+    src: url('../fonts/Calibri/Calibri-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri-LightItalic.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri-LightItalic.woff') format('woff'),
+        url('../fonts/Calibri/Calibri-LightItalic.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri-LightItalic.svg#Calibri-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+} 
+
+Calibri normal italic
+@font-face {
+    font-family: 'calibri-5';
+    src: url('../fonts/Calibri/Calibri-Italic.eot');
+    src: url('../fonts/Calibri/Calibri-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri-Italic.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri-Italic.woff') format('woff'),
+        url('../fonts/Calibri/Calibri-Italic.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri-Italic.svg#Calibri-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+} 
+
+Calibri nold normal
+@font-face {
+    font-family: 'calibri-6';
+    src: url('../fonts/Calibri/Calibri-Bold.eot');
+    src: url('../fonts/Calibri/Calibri-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri-Bold.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri-Bold.woff') format('woff'),
+        url('../fonts/Calibri/Calibri-Bold.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri-Bold.svg#Calibri-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} 
+FIN ITAM Calibri 
+
+INICIO ITAM Dinpro 
+
+Dinpro normal normal
+@font-face {
+    font-family: 'dinproblack';
+    src: url('../fonts/Dinpro/dinpro-black-webfont.eot');
+    src: url('../fonts/Dinpro/dinpro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Dinpro/dinpro-black-webfont.woff2') format('woff2'),
+         url('../fonts/Dinpro/dinpro-black-webfont.woff') format('woff'),
+         url('../fonts/Dinpro/dinpro-black-webfont.svg#dinproblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+Dinpro normal normal
+@font-face {
+    font-family: 'dinpromedium';
+    src: url('../fonts/Dinpro/dinpro-medium-webfont.eot');
+    src: url('../fonts/Dinpro/dinpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Dinpro/dinpro-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Dinpro/dinpro-medium-webfont.woff') format('woff'),
+         url('../fonts/Dinpro/dinpro-medium-webfont.svg#dinpromedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+FIN ITAM Dinpro */

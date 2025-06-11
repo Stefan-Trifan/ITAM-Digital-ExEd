@@ -1,0 +1,15 @@
+{
+  "name": "itam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "limpiarcss": "purgecss --css ./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css --content ./**/**/*.html --output ./dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  }
+}
