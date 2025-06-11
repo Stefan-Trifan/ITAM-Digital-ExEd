@@ -53,4 +53,4 @@ function lazyLoad(){
     })
 }
 
-console.log("5 Funciona");
+console.log("5 Funciona lazyload");

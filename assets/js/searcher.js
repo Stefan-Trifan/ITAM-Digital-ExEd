@@ -39,3 +39,5 @@ function filtrar() {
  */
 boton.addEventListener('click', filtrar)
 formulario.addEventListener('keyup', filtrar)
+
+console.log("9 Funciona searcher");

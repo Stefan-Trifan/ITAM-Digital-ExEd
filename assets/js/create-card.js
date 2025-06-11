@@ -44,4 +44,4 @@ function createCard(obj, $template, $fragment) {
     $fragment.appendChild($clone);
 }
 
-console.log("6 Funciona");
+console.log("6 Funciona create");

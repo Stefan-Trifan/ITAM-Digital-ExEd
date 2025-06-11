@@ -107,3 +107,4 @@ if(utmAux.includes('#')){
     });
 }
 
+console.log("8 Funciona product");

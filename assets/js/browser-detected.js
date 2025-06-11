@@ -44,4 +44,4 @@ if (navegador == typeNavegador.toLowerCase().trim()) {
     convers(document.querySelectorAll('.bg-img-cabecera'));
 }
 
-console.log("4 Funciona");
+console.log("4 Funciona browser");
