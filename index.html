@@ -391,5 +391,15 @@
     <script defer src="assets/js/return-products-hub.js"></script>
     <script defer src="assets/js/product-filtering-application.js"></script>
     <script defer src="assets/js/searcher.js"></script>
+    <script>
+        console.log('Página cargada');
+        fetch('assets/bbdd/bbdd-itam-esp.json')
+        .then(response => {
+            console.log('Respuesta JSON:', response.status);
+            return response.json();
+        })
+        .then(data => console.log('Datos cargados:', data))
+        .catch(error => console.error('Error cargando JSON:', error));
+    </script>
 </body>
 </html>
