@@ -15,10 +15,10 @@ const utmAux = window.location.href
 var documentProduct;
 switch (langDom) {
     case 'en':
-        documentProduct = '../assets/bbdd/bbdd-itam-eng.json'
+        documentProduct = '/assets/bbdd/bbdd-itam-eng.json'
         break;
     case 'es':
-        documentProduct = '../assets/bbdd/bbdd-itam-esp.json'
+        documentProduct = '../../assets/bbdd/bbdd-itam-esp.json'
         break;
     case 'fr':
         documentProduct = '../assets/js/bbdd-mitpe-esp.json'
