@@ -1,8 +1,8 @@
 # ITAM Digital Executive Education
 
-Este repositorio contiene el código fuente y documentación del **sitio web oficial** del programa **Digital Executive Education del ITAM**, que desarrollé durante mi etapa en la empresa **Global Alumni**.
+Este repositorio contiene el código fuente del **sitio web oficial** del programa **Digital Executive Education del ITAM**, que desarrollé durante mi etapa en la empresa **Global Alumni**.
 
-Fui responsable del diseño, desarrollo, mantenimiento y optimización del proyecto, aplicando técnicas avanzadas para garantizar alto rendimiento, accesibilidad y una excelente experiencia de usuario.
+Fui responsable del diseño, desarrollo, mantenimiento y optimización del proyecto, aplicando técnicas avanzadas para garantizar el rendimiento, accesibilidad y la experiencia de usuario.
 
 ## VER DEMOSTRACIÓN
 
